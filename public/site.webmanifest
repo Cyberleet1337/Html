@@ -1,0 +1,17 @@
+{
+  "name": "M Solutions - Software & IT Experts",
+  "short_name": "M Solutions",
+  "description": "Hospital software, enterprise networking, CCTV security, and IT consulting.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1d30",
+  "theme_color": "#0879cf",
+  "icons": [
+    {
+      "src": "/msolutions-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

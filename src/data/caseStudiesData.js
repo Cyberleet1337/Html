@@ -1,0 +1,32 @@
+export const caseStudiesData = [
+  {
+    id: 'hospital-hims-rollout',
+    title: 'Hospital & Laboratory Automation at Scale',
+    category: 'HIMS / LIMS Deployment',
+    client: 'Multispecialty Clinical Center, Lahore',
+    metric: '68% reduction',
+    metricLabel: 'in patient report turnaround time',
+    description: 'Transitioned a high-volume clinical center from manual paper chits to our integrated HIMS & LIMS. Bidirectional analyzer interfacing connected 8 diagnostic machines directly to the patient database, eliminating data-entry errors.',
+    tags: ['Automated LIMS', 'OPD / IPD System', 'Direct Machine Interfacing', 'Pharmacy POS'],
+  },
+  {
+    id: 'campus-networking',
+    title: 'Campus-Wide Structured Network & High-Density Wi-Fi',
+    category: 'Enterprise Infrastructure',
+    client: 'Educational Institute, Punjab',
+    metric: '99.98% uptime',
+    metricLabel: 'across 1,200+ concurrent devices',
+    description: 'Designed and installed a multi-gigabit optical fiber backbone with Cat6A drops across 3 academic blocks. Implemented dynamic VLAN segmentation separating student traffic, administrative finance, and digital exam labs.',
+    tags: ['Fiber Backbone', 'VLAN Segmentation', 'Ubiquiti Wi-Fi 6', 'Firewall Security'],
+  },
+  {
+    id: 'cctv-surveillance',
+    title: 'High-Definition IP CCTV & Biometric Access Network',
+    category: 'Commercial Security',
+    client: 'Corporate Warehouse & Distribution Hub',
+    metric: '100% perimeter',
+    metricLabel: 'visible via encrypted live mobile stream',
+    description: 'Deployed 64 4K IP cameras with AI perimeter tripwire detection and infrared night color vision. Integrated optical fingerprint turnstiles synchronizing daily staff shifts directly with the HR payroll engine.',
+    tags: ['4K IP CCTV', 'AI Motion Detection', 'Biometric Access', 'Central NVR Storage'],
+  },
+];

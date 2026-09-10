@@ -1,0 +1,52 @@
+:root {
+  /* M Solutions Signature Blue & Cyan Theme */
+  --bg-dark: #070d18;
+  --bg-darker: #040810;
+  --bg-surface: #0c1728;
+  --bg-surface-elevated: #112038;
+  --bg-card: rgba(12, 23, 40, 0.85);
+  --bg-card-hover: rgba(17, 32, 56, 0.95);
+
+  /* Luminous Logo Blues */
+  --color-primary: #0ea5e9;
+  --color-primary-hover: #38bdf8;
+  --color-primary-glow: rgba(14, 165, 233, 0.35);
+  --color-secondary: #0284c7;
+  --color-secondary-cyan: #38bdf8;
+  --color-secondary-glow: rgba(56, 189, 248, 0.28);
+  --color-royal-blue: #1d4ed8;
+  --color-royal-glow: rgba(29, 78, 216, 0.35);
+  --color-whatsapp: #25d366;
+
+  /* Text Colors */
+  --text-white: #ffffff;
+  --text-light: #e0f2fe;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(56, 189, 248, 0.12);
+  --border-medium: rgba(56, 189, 248, 0.22);
+  --border-accent: rgba(14, 165, 233, 0.5);
+
+  /* Typography */
+  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'DM Mono', 'SF Mono', Consolas, monospace;
+
+  /* Layout & Sizing */
+  --max-width: 1340px;
+  --max-width-narrow: 1140px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Shadows */
+  --shadow-card: 0 14px 40px rgba(0, 0, 0, 0.5);
+  --shadow-card-hover: 0 20px 50px rgba(0, 0, 0, 0.65), 0 0 28px var(--color-primary-glow);
+}

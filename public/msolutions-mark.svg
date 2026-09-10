@@ -1,14 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" role="img" aria-labelledby="title desc">
-  <title id="title">M Solutions mark</title>
-  <desc id="desc">Two rising navy and blue geometric strokes forming an M.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
   <defs>
-    <linearGradient id="blue" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#0877c9" />
-      <stop offset="1" stop-color="#1658ba" />
+    <linearGradient id="m-blue-left" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
     </linearGradient>
+    <linearGradient id="m-blue-right" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="m-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
-  <path fill="#10263d" d="M45 220V150L190 10v74L45 224z" />
-  <path fill="url(#blue)" d="M150 220V150L305 10v74L150 224z" />
-  <path fill="#075fc0" d="M235 220V126l70-63v74l-70 63z" />
-  <path fill="#b8d8ee" opacity=".45" d="M22 226h285l-51 12H74z" />
+
+  <!-- Background subtle glow circle -->
+  <circle cx="50" cy="50" r="44" fill="#0c1a2e" stroke="#1e3a5f" stroke-width="1.5" />
+  <circle cx="50" cy="50" r="38" fill="none" stroke="url(#m-glow)" stroke-width="1" opacity="0.4" />
+
+  <!-- Modern Geometric 'M' Emblem with Depth & Angle -->
+  <!-- Left Ascent Stem -->
+  <polygon points="18,74 18,36 34,20 48,36 48,74 34,58" fill="url(#m-blue-left)" />
+
+  <!-- Center Peak & Right Stem -->
+  <polygon points="48,74 48,36 64,20 82,36 82,74 66,58 66,42 54,30 54,68" fill="url(#m-blue-right)" />
+
+  <!-- Center Connecting Apex Diamond Highlight -->
+  <polygon points="48,36 56,28 64,36 56,44" fill="#7dd3fc" filter="url(#glow-blur)" opacity="0.9" />
+
+  <!-- Bottom Horizon Reflector Line -->
+  <line x1="22" y1="80" x2="78" y2="80" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8" />
 </svg>
